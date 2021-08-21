@@ -1,0 +1,57 @@
+/*ページ遷移のとき*/
+#loading
+{
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: #efefef;
+}
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*ページ内のいろいろ*/
+body
+{
+    height: 1200px;
+    background-image: url(images/2067965_m.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container
+{
+    position: absolute;
+    background: rgba(239,239,239,0.7);
+    text-align: center;
+    top: 15%;
+}
+table
+{
+    margin: auto;
+}
+
+span
+{
+    display:inline-block;
+}
+
+ul
+{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#end
+{
+    display:inline-block;
+    margin-bottom: 5px;
+}
